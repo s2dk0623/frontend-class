@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    color: #fff;
+    background-color: #000;
+    align-items: center;
+
+}   
+
+
+.logo{
+   display: flex;
+}
+
+.nav .logo .image img{
+    height: 2rem;
+    
+}
+
+.nav .nav-links a li{
+    display: inline;
+    padding-left: 1rem
+}
+ .no-container{
+     height: 1.5rem;
+     background-color: rgb(131, 103, 103);
+
+ }
+
+ .nav .last-link a p{
+      color: #000;
+      background-color:rgb(192, 192, 45);
+      padding: 0.30rem;
+      text-align: center;
+ }
+
+.main {
+    height: 80vh;
+    width: 100;
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url(back-pic/house.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ 
+.hero{
+    color: #fff
+}
+
+.main .hero .form-pt form input {
+    height: 1rem;
+    width: 6rem;
+}
+
+#info {
+    height: 1rem;
+    width: 12.5rem;
+}
+
+button {
+    height: 1.5rem;
+    width: 12.8rem;
+    background-color: rgb(192, 192, 45);
+}
+.main .hero .first-ad h2{
+    color: rgb(192, 192, 45);
+
+}
+
+.main .hero .form-pt h3{
+    font-weight: normal;
+    font-size: 12px;
+    margin: 1.3rem 6rem 0 ;
+}
+
+.nav .nav-links a {
+    color: #fff;
+}
+
+.main footer{
+    color: grey;
+}
